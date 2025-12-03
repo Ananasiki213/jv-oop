@@ -7,7 +7,6 @@ public class MainApp {
                 new Truck(),
                 new Excavator()
         };
-
         for (Machine machine : machines) {
             machine.doWork();
             machine.stopWork();
